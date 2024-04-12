@@ -12,36 +12,34 @@
     @include flexCenter;
     flex-direction: column;
 
-
     .headline {
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 60px;
-        margin-bottom: 4vh;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 60px;
+      margin-bottom: 4vh;
+    }
+
+    .lead {
+      display: flex;
+      width: 100%;
+      .location {
+        margin-right: 25px;
       }
-    
-      .lead {
-        display: flex; 
-        width: 100%;
-        .location {
-            margin-right: 25px;
-        }
-        li {
-            display: flex;
-            gap: 10px;
-            font-weight: 300;
-            font-size: 20px;
-        }
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 300;
+        font-size: 20px;
       }
+    }
   }
 
   .portrait-container {
     @include flexCenter;
 
     img {
-        width: 100%;
+      width: 100%;
     }
   }
-
-
 }
