@@ -1,16 +1,19 @@
 import Portrait from '../assets/images/Portrait.png'
+import locationIcon from '/location.svg'
+import searchIcon from '/search.svg'
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="text">
         <div className="headline">
-          Hola, moi c’est Andrea, dev fullstack en recherche de nouvelles
-          expériences
+          Hola, moi c’est Andrea, <br/>
+          dev fullstack en recherche <br/>
+          de nouvelles expériences
         </div>
         <ul className="lead">
-            <li className="location">Strasbourg</li>
-            <li className="date">alternance à partir d’août 2024</li>
+            <li className="location"><img src={locationIcon} alt="Icone de localisation" />Strasbourg</li>
+            <li className="date"><img src={searchIcon}  alt="Icone de recherche" />alternance à partir d’août 2024</li>
         </ul>
       </div>
       <div className="portrait-container">

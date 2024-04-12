@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: rgb(1, 1, 1);
+    background-color: #f8f8f8;
+  
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 84vw;
+    margin: 4vh auto;
+    font-family: 'Lexend', sans-serif;
+  }
+
+  li {
+    list-style-type: none;
+  }
+

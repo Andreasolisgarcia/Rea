@@ -1,0 +1,46 @@
+.hero {
+  display: grid;
+  grid-template-columns: 57% 35%;
+  gap: 7%;
+  align-items: center;
+  height: 75vh;
+  width: 90%;
+  margin: 0 auto;
+
+  .text {
+    max-width: 522px;
+    @include flexCenter;
+    flex-direction: column;
+
+
+    .headline {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 3vh;
+      }
+    
+      .lead {
+        display: flex; 
+        .location {
+            margin-right: 25px;
+        }
+        li {
+            display: flex;
+            gap: 10px;
+            font-weight: 300;
+            font-size: 20px;
+        }
+      }
+  }
+
+  .portrait-container {
+    @include flexCenter;
+
+    img {
+        width: 100%;
+    }
+  }
+
+
+}

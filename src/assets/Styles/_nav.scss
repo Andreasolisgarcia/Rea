@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    color: #089b7a;
+    font-size: 40px;
+  }
+  ul {
+    width: 50%;
+    max-width: 314px;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      font-size: 20px;
+      @include flexCenter;
+    }
+
+    .btn-contact {
+        width: 147px;
+        border-radius: 20px;
+        padding: 0.6em 1.2em;
+        font-weight: 500;
+        background-color: #0FD0A5;
+        color: white;
+        cursor: pointer;
+        transition: border-color 0.25s;
+        display: flex;
+        gap: 8px;
+        transition: .3s;
+
+        &:hover {
+          background-color: #089B7A;
+        }
+    }
+    
+  }
+}
+
