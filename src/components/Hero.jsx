@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="text">
         <div className="headline">
           Hola, moi c’est Andrea, <br/>
-          dev fullstack en recherche <br/>
+          dev fullstack en recherche 
           de nouvelles expériences
         </div>
         <ul className="lead">
