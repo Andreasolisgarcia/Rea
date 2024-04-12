@@ -1,13 +1,14 @@
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-    return (
-        <section>
-            <h1> Projets </h1>
-            <ProjectCard/>
-            
-        </section>
-    );
+  return (
+    <section className="projects-section">
+      <h1> Projets </h1>
+      <div className="projects">
+        <ProjectCard />
+      </div>
+    </section>
+  );
 };
 
 export default Projects;

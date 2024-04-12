@@ -1,0 +1,17 @@
+.projects-section {
+  h1 {
+    color: $primary-color;
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 7vh;
+
+    &::after {
+      content: " ";
+      display: block;
+      width: 190px;
+      height: 4px;
+      background: $primary-color;
+      border-radius: 4px;
+    }
+  }
+}
