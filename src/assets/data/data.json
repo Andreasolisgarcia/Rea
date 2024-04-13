@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Transformez une maquette en site web avec HTML & CSS",
+        "responsive": true,
+        "technos": ["HTML, CSS"],
+        "skills": ["Intégrer du contenu conformément à une maquette", "Implémenter une interface responsive"],
+        "figma": "https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design&t=FBZif5TPQJottdLd-0",
+        "repository": "https://github.com/Andreasolisgarcia/Booki",
+        "liveDemoLink": "https://andreasolisgarcia.github.io/Booki/"
+    },
+    {
+        "title": "Dynamiser une page web avec des animations CSS",
+        "responsive": true,
+        "technos": ["HTML, SASS"],
+        "skills": [" Mettre en œuvre des effets CSS graphiques avancés", "Assurer la cohérence graphique d'un site web", "Mettre en place une structure de navigation pour un site web", "Mettre en place son environnement Front-End",  "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"],
+        "figma": "https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Projet-3-FR---Ohmyfood?node-id=0%3A1",
+        "repository": "https://github.com/Andreasolisgarcia/OMF",
+        "liveDemoLink": "https://andreasolisgarcia.github.io/OMF/"
+    },
+    {
+        "title": "Creer une landing page avec Javascript",
+        "responsive": true,
+        "technos": ["HTML", "css", "JavaScript"],
+        "skills": [" Mettre en œuvre des effets CSS graphiques avancés", "Assurer la cohérence graphique d'un site web", "Mettre en place une structure de navigation pour un site web", "Mettre en place son environnement Front-End",  "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"],
+        "figma": "",
+        "repository": "https://github.com/Andreasolisgarcia/GO-website",
+        "liveDemoLink": "https://andreasolisgarcia.github.io/GO-website/"
+    }
+]
