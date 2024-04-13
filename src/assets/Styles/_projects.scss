@@ -14,4 +14,10 @@
       border-radius: 4px;
     }
   }
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
 }

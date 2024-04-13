@@ -1,11 +1,13 @@
 import ProjectCard from "./ProjectCard";
 
-const Projects = () => {
+const Projects = ({ data }) => {
   return (
     <section className="projects-section">
       <h1> Projets </h1>
       <div className="projects">
-        <ProjectCard />
+        {data.map((project, index) => (
+          <ProjectCard key={index} project = {project} />
+        ))}
       </div>
     </section>
   );
