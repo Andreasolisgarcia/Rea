@@ -1,5 +1,6 @@
-import gitLogo from "/GitLogo.svg";
-import videoPlayerLogo from "/video-player-logo.svg";
+import gitIcon from "/GitLogo.svg";
+import videoPlayerIcon from "/video-player-logo.svg";
+import figmaIcon from '/figma.svg';
 
 const ProjectCard = ({project}) => {
 
@@ -19,12 +20,18 @@ const ProjectCard = ({project}) => {
         </ul>
         <ul className="project-links">
           <li>
-            <img src={gitLogo} alt="Github Logo" />
+            <img src={gitIcon} alt="Github icon" />
             <a href={project.repository}>Code</a>
           </li>
           <li>
-            <img src={videoPlayerLogo} alt="" />
-            <a href={project.liveDemoLink}>Live-Demo</a>
+            <img src={videoPlayerIcon} alt="Play icon" />
+            <a href={project.liveDemoLink}>Demo</a>
+          </li>
+          <li>
+            <span className="iconContainer">
+            <img src={figmaIcon} alt="figma icon" />
+            </span>
+            <a href={project.figmaLink}> Maquettes</a>
           </li>
         </ul>
       </div>
