@@ -1,0 +1,28 @@
+footer {
+    background: white;
+    box-shadow: 0px -10px 24px 0px rgba(0, 0, 0, 0.03);
+    height: 18.33vh;
+    @include flexCenter;
+    ul {
+        width: 84vw;;
+        display: flex;
+        justify-content: space-between;
+    .social_media_logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+        img {
+            height: 40px;
+        }        
+    }
+    .page_name {
+        font-size: 30px;
+        @include flexCenter;
+    }
+    .copyright {
+        font-size: 14px;
+        color: $color-gray;
+        @include flexCenter;
+    }
+    }
+}

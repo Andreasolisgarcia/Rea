@@ -9,8 +9,11 @@
   .logo-container {
     @include flexCenter;
 
-    img {
-      height: 25%;
+    a {
+
+      img {
+        height: 8vh;
+      }
     }
   }
 
@@ -38,9 +41,26 @@
     }
 
     .project-links {
+      width: 100%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      row-gap: 1vh;
       li {
-        padding-right: 40px;
         font-weight: 300;
+
+        .icon-container{
+          width: 23px;
+          height: 23px;
+          background: black;
+          border-radius: 100%;
+          @include flexCenter;
+          margin-right: 16px;
+
+          img {
+            filter: invert(100%);
+            margin: 0;
+          }
+        }
       
         img {
           margin-right: 16px;
@@ -52,5 +72,12 @@
         }
       }
     }
+  }
+
+}
+
+@media (max-width: 293px) {
+  .card-project{
+    grid-template-rows: 50% 50%;
   }
 }
