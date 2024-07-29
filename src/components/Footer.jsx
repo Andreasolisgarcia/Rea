@@ -6,8 +6,12 @@ const Footer = () => {
         <footer>
             <ul>
                 <li className='social_media_logos'>
-                <img src={LinkedIn} alt="LinkedIn Logo" />
-                <img src={GitLogo} alt="Git Logo" />
+                    <a href="https://www.linkedin.com/in/andrea-solisg">
+                    <img src={LinkedIn} alt="LinkedIn Logo" />
+                    </a>
+                    <a href="https://github.com/Andreasolisgarcia">
+                    <img src={GitLogo} alt="Git Logo" />
+                    </a>
                 </li>
                 <li className='page_name'>rea.dev</li>
                 <li className='copyright'>©Andrea Solis</li>

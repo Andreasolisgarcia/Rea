@@ -1,20 +1,21 @@
 import gitIcon from "/GitLogo.svg";
 import videoPlayerIcon from "/video-player-logo.svg";
-import figmaIcon from '/figma.svg';
+import figmaIcon from "/figma.svg";
 
-const ProjectCard = ({project}) => {
-
+const ProjectCard = ({ project }) => {
   return (
     <article className="card-project">
       <div className="logo-container">
-        <img src={project.logo} alt={project.name}  />
+        <a href={project.liveDemoLink}>
+          <img src={project.logo} alt={project.name} />
+        </a>
       </div>
 
       <div className="card-info">
         <h2>{project.title}</h2>
-        <p>{(project.responsive)? "Desktop & Mobile": "Desktop"}</p>
+        <p>{project.responsive ? "Desktop & Mobile" : "Desktop"}</p>
         <ul className="technologies">
-          {project.technos.map((techno , index)=> (
+          {project.technos.map((techno, index) => (
             <li key={index}> {techno}</li>
           ))}
         </ul>
@@ -29,7 +30,7 @@ const ProjectCard = ({project}) => {
           </li>
           <li>
             <span className="icon-container">
-            <img src={figmaIcon} alt="figma icon" />
+              <img src={figmaIcon} alt="figma icon" />
             </span>
             <a href={project.figmaLink}> Maquettes</a>
           </li>

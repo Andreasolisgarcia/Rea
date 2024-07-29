@@ -9,8 +9,11 @@
   .logo-container {
     @include flexCenter;
 
-    img {
-      height: 25%;
+    a {
+
+      img {
+        height: 8vh;
+      }
     }
   }
 
@@ -69,5 +72,12 @@
         }
       }
     }
+  }
+
+}
+
+@media (max-width: 293px) {
+  .card-project{
+    grid-template-rows: 50% 50%;
   }
 }
