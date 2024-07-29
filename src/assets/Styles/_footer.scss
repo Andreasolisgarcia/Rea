@@ -1,0 +1,27 @@
+footer {
+    background: white;
+    height: 18.33vh;
+    @include flexCenter;
+    ul {
+        width: 84vw;;
+        display: flex;
+        justify-content: space-between;
+    .social_media_logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+        img {
+            height: 40px;
+        }        
+    }
+    .page_name {
+        font-size: 30px;
+        @include flexCenter;
+    }
+    .copyright {
+        font-size: 14px;
+        color: $color-gray;
+        @include flexCenter;
+    }
+    }
+}

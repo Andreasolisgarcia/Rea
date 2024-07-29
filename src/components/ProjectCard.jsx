@@ -28,7 +28,7 @@ const ProjectCard = ({project}) => {
             <a href={project.liveDemoLink}>Demo</a>
           </li>
           <li>
-            <span className="iconContainer">
+            <span className="icon-container">
             <img src={figmaIcon} alt="figma icon" />
             </span>
             <a href={project.figmaLink}> Maquettes</a>
