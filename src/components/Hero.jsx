@@ -12,7 +12,7 @@ const Hero = () => {
           de nouvelles expériences
         </div>
         <ul className="lead">
-            <li className="location"><img src={locationIcon} alt="Icone de localisation" />Strasbourg</li>
+            <li className="location"><img src={locationIcon} alt="Icone de localisation" />Strasbourg ou à distance </li>
             <li className="date"><img src={searchIcon}  alt="Icone de recherche" /> Stage / Alternance </li>
         </ul>
       </div>
