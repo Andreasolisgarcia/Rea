@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = ({ data }) => {
   return (
-    <section className="projects-section">
+    <section className="projects-section" id='projects'>
       <h1> Projets </h1>
       <div className="projects">
         {data.map((project, index) => (

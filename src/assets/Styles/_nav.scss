@@ -7,7 +7,7 @@ nav {
     font-size: 40px;
   }
   ul {
-    width: 50%;
+    width: 10%;
     max-width: 314px;
     display: flex;
     justify-content: space-between;
@@ -15,6 +15,10 @@ nav {
     li {
       font-size: 20px;
       @include flexCenter;
+
+      :hover {
+        color: #089b7a ;
+      }
     }
 
     .btn-contact {
