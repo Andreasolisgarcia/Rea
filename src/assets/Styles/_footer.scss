@@ -2,6 +2,7 @@ footer {
     background: white;
     box-shadow: 0px -10px 24px 0px rgba(0, 0, 0, 0.03);
     height: 18.33vh;
+    margin-top: 15vh;
     @include flexCenter;
     ul {
         width: 84vw;;
