@@ -13,7 +13,7 @@ const Footer = () => {
                     <img src={GitLogo} alt="Git Logo" />
                     </a>
                 </li>
-                <li className='page_name'>rea.dev</li>
+                <li className='page_name'>readev</li>
                 <li className='copyright'>©Andrea Solis</li>
             </ul>
         </footer>

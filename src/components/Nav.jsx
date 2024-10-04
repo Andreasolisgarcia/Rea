@@ -3,7 +3,7 @@ import PeaceSign from '/peaceSign.svg'
 const Nav = () => {
     return (
         <nav>
-            <div className="logo">rea.dev</div>
+            <div className="logo">readev</div>
             <ul className="menu">
                 <li><a href='#projects'>Projets</a></li>
                 <li><a href='/CV_DEVWEB_SOLIS_Andrea.pdf' download='CV_DEVWEB_SOLIS_Andrea.pdf'>CV</a></li>
