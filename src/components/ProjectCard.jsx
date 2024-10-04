@@ -3,6 +3,10 @@ import videoPlayerIcon from "/video-player-logo.svg";
 import figmaIcon from "/figma.svg";
 
 const ProjectCard = ({ project }) => {
+  const title = project.title;
+const titleUntilNewline = title.substring(0, title.indexOf("\n"));
+const titleFromNewline = title.substring(title.indexOf("\n") + 1);
+
   return (
     <article className="card-project">
       <div className="logo-container">
@@ -12,7 +16,7 @@ const ProjectCard = ({ project }) => {
       </div>
 
       <div className="card-info">
-        <h2>{project.title}</h2>
+        <h2>{titleUntilNewline}  <br /> {titleFromNewline}</h2>
         <p>{project.responsive ? "Desktop & Mobile" : "Desktop"}</p>
         <ul className="technologies">
           {project.technos.map((techno, index) => (

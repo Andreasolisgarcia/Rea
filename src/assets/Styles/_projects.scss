@@ -1,24 +1,20 @@
 .projects-section {
-  margin-bottom: 6vh;
   h1 {
-    color: $primary-color;
-    font-size: 56px;
+    color: black;
+    font-size: 48px;
     font-weight: 500;
     margin-bottom: 7vh;
-
-    &::after {
-      content: " ";
-      display: block;
-      width: 190px;
-      height: 4px;
-      background: $primary-color;
-      border-radius: 4px;
-    }
+    margin-left: 5%;
   }
 
-  .projects{
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
+  .projects-container {
+    width: 75%;
+    margin: 0 auto 6vh auto;
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 3vh;
+    }
   }
 }

@@ -1,6 +1,6 @@
 [
     {
-        "title": "Transformer une maquette en site web avec HTML & CSS",
+        "title": "Transformer une maquette en\nsite web avec HTML & CSS",
         "name": "Booki",
         "logo": "/logos/booki.png",
         "responsive": true,
@@ -11,7 +11,7 @@
         "liveDemoLink": "https://andreasolisgarcia.github.io/Booki/"
     },
     {
-        "title": "Dynamiser une page web avec des animations CSS",
+        "title": "Dynamiser une page web\navec des animations CSS",
         "name": "Oh my food",
         "logo": "/logos/ohMyFood.png",
         "responsive": true,
@@ -22,7 +22,7 @@
         "liveDemoLink": "https://andreasolisgarcia.github.io/OMF/"
     },
     {
-        "title": "Creer une landing page avec Javascript",
+        "title": "Creer une landing page\navec Javascript",
         "name": "Game On",
         "logo": "/logos/gameOn.png",
         "responsive": true,
